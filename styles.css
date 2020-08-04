@@ -1,0 +1,102 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navLinks {
+  display: inline;
+  list-style: none;
+  font-size: 12px;
+  text-align: center;
+}
+
+.topLeft {
+  float: left;
+}
+
+.topRight {
+  float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#signIn {
+  background-color: rgb(131, 143, 250);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 1px;
+  text-align: center;
+}
+
+section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+#text {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  width: 600px;
+  height: 40px;
+}
+
+#text:hover {
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.btnSearch {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.btnSearch:hover {
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+footer {
+  background-color: #f2f2f2;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footLinks {
+  display: inline;
+  list-style: none;
+  font-size: 13px;
+}
+
+.bottomLeft {
+  float: left;
+  padding: 4px 8px;
+}
+
+.bottomRight {
+  float: right;
+  padding: 4px 8px;
+}

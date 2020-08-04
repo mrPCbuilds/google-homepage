@@ -1,0 +1,1 @@
+I still have a few CSS styling aspects to work on, as far as a mock-up goes. Hopefully I will get the time to comment my code as well. Nevertheless, here is my version of Google without referencing examples on TOP. 
